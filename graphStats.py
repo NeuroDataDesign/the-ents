@@ -97,7 +97,7 @@ class GraphStats():
 
     def avg_eig_cent(self):
         # Average Eigenvector centrality
-        if len(g.nodes()) != 0:
+        if len(self.graph.nodes()) != 0:
             eig_cen = nx.eigenvector_centrality(self.graph)
             if len(eig_cen) != 0:
                 avg_ec = sum(eig_cen.values())/len(eig_cen)
@@ -108,7 +108,7 @@ class GraphStats():
 
     def max_eig_cent(self):
         # Maximum Eigenvector centrality
-        if len(g.nodes()) != 0:
+        if len(self.graph.nodes()) != 0:
             eig_cen = nx.eigenvector_centrality(self.graph)
             if len(eig_cen) != 0:
                 max_ec = max(eig_cen.values())
@@ -187,7 +187,7 @@ class GraphStats():
     def scan_statistic(self, rad):
         tmp = np.array(())
         for n in self.graph.nodes():
-            sg = nx.ego_graph(self.graph, n, radius=i)
+            sg = nx.ego_graph(self.graph, n, radius=rad)
             tmp = np.append(tmp, np.sum([sg.get_edge_data(e[0], e[1])['weight']
                             for e in sg.edges()]))
         return np.max(tmp)
