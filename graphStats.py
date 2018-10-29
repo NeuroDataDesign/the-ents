@@ -1,12 +1,16 @@
 #   Ganesh Arvapalli
 #   Create graph statistics class that can calculate common graph statistics
-#   Format graph statistics as numpy array (to be inserted into data matrix)
+#   Format graph statistics as list (to be inserted into data matrix)
 #   (https://networkx.github.io/documentation/networkx-1.10/reference/algorithms.html)
 
 import networkx as nx
 import numpy as np
 
 class GraphStats():
+    """
+        Takes in graph as input and computes relevant graph statistics.
+        Call gs.return_stats() to get vector of features
+    """
     def __init__(self, g_):
         if len(g_.nodes()) == 0:
             print("Empty graph input detected.")
@@ -32,7 +36,7 @@ class GraphStats():
         return avg_andeg
 
     # This seems a little redundant compared to max_degree
-    def avg_neighbor_degree(self):
+    def max_neighbor_degree(self):
         # Maximum neightbor degree
         andeg = nx.average_neighbor_degree(self.graph)
         if len(andeg) != 0:
@@ -196,7 +200,7 @@ class GraphStats():
         stats = [self.avg_degree(), 
                 self.max_degree(),
                 self.avg_neighbor_degree(),
-                self.avg_neighbor_degree(),
+                self.max_neighbor_degree(),
                 self.avg_deg_connectivity(),
                 self.max_deg_connectivity(),
                 self.avg_clust_coeff(),
