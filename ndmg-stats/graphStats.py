@@ -25,7 +25,7 @@ class GraphStats():
 
     def max_degree(self):
         # Maximum degree of graph
-        deg_seq = sorted([d for n, d in self.graph.degree()])
+        deg_seq = [d for n, d in self.graph.degree()]
         return max(deg_seq)
 
     def avg_neighbor_degree(self):
