@@ -35,7 +35,6 @@ def random_graph(n, p, binary=True):
 
     A += A.T
     A[np.diag_indices_from(A)] /= 2
-    print(A)
 
     # Convert adjacency to nx object
     G = nx.from_numpy_array(A)
