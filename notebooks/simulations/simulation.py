@@ -2,8 +2,8 @@ import numpy as np
 import time
 import h5py
 
-from ..features.summary_stats import stats
-from graph import random_graph
+from src.features.summary import Stats
+from src.random.bernoulli import RandomGraph
 
 
 if __name__ == '__main__':
@@ -14,8 +14,8 @@ if __name__ == '__main__':
     for n in np.linspace(5, 100, 20):
         for p in np.linspace(0.1, 0.8, 20):
 
-            A = random_graph(int(n), p)
-            s = stats(A)
+            A = RandomGraph(int(n), p)
+            s = Stats(A)
 
             public_method_names = [method for method in dir(s) if callable(getattr(s, method)) if not method.startswith('_')]
             public_method_names.remove('return_stats')
