@@ -1,9 +1,28 @@
+#!/usr/bin/env python
+
+# graph.py
+# Created by Vivek Gopalakrishnan on 2018-11-13.
+# Email: vgopala4@jhu.edu
+# Copyright (c) 2018. All rights reserved.
+
 import numpy as np
-import time
+import timeit
 import h5py
 
 from src.features.summary import Stats
 from src.random.bernoulli import RandomGraph
+
+def measure_runtime(n, p, n=5):
+
+    # Initialize graph and stats class
+    A = RandomGraph(int(n), p)
+    s = Stats(A)
+
+    # Dictionary for holding results
+    results = {}
+    results['parameters'] = (n, p)
+
+
 
 
 if __name__ == '__main__':
