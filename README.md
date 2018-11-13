@@ -9,6 +9,15 @@ TO-DO
 - Setup continuous integration (using either travis or tox)
 - Other members should PR their work using branches for new features
 
+
+Install from GitHub
+------------
+```
+git clone https://github.com/NeuroDataDesign/the-ents
+cd the-ents
+python3 setup.py install
+```
+
 Project Organization
 ------------
 
