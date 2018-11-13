@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='test.',
-    author='Vivek Gopalakrishnan',
+    author='Vivek Gopalakrishnan, Ganesh Arvapalli',
     license='',
 )
