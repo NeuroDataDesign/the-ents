@@ -1,7 +1,7 @@
-test
+the-ents
 ==============================
 
-test.
+Collection of source code and results for The Ents.
 
 Project Organization
 ------------
