@@ -1,7 +1,13 @@
-#   Ganesh Arvapalli
-#   Create graph statistics class that can calculate common graph statistics
-#   Format graph statistics as list (to be inserted into data matrix)
-#   (https://networkx.github.io/documentation/networkx-1.10/reference/algorithms.html)
+# download_data.sh
+# Created by Ganesh Arvapalli on 2018-11-02.
+# Email:
+# Copyright (c) 2018. All rights reserved.
+
+"""
+    Create graph statistics class that can calculate common graph statistics
+    Format graph statistics as list (to be inserted into data matrix)
+    (https://networkx.github.io/documentation/networkx-1.10/reference/algorithms.html)
+"""
 
 import networkx as nx
 import numpy as np

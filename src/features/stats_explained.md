@@ -1,4 +1,4 @@
-# GraphStats Explained
+# summary_stats.py Explained
 
 ### Consult this table for a brief explanation of the graph statistics calculated by the GraphStats class.
 
