@@ -3,6 +3,12 @@ the-ents
 
 Collection of source code and results for The Ents.
 
+TO-DO
+------------
+- Add Apache license
+- Setup continuous integration (using either travis or tox)
+- Other members should PR their work using branches for new features
+
 Project Organization
 ------------
 
