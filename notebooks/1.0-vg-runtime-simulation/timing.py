@@ -8,12 +8,9 @@
 import timeit
 
 from src.features.summary import Stats
-from src.random.bernoulli import RandomGraph
 
 
 def measure_runtime(n, p, number=5):
-
-
     """
     Calculates the runtime for a given graph.
     Does not time the functions: 'khop_locality', 'scan_statistic'
