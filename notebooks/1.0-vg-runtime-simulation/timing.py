@@ -8,7 +8,7 @@
 import timeit
 
 from src.features.summary import Stats
-from src.random.bernoulli import RandonGraph
+from src.random.bernoulli import RandomGraph
 
 
 def measure_runtime(n, p, number=5):
