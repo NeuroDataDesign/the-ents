@@ -11,7 +11,7 @@
 
 import networkx as nx
 import numpy as np
-from graspy.utils.ptr import pass_to_ranks
+# from graspy.utils.ptr import pass_to_ranks
 
 
 class Stats():
@@ -205,26 +205,26 @@ class Stats():
                                          for e in sg.edges()]))
         return np.max(tmp)
 
-    # 1-hop and 2-hop scan statistics
-    def khop_locality(self, k, binary=True):
+    # # 1-hop and 2-hop scan statistics
+    # def khop_locality(self, k, binary=True):
 
-        # PTR graph
-        if not binary:
-            ptr_G = pass_to_ranks(self.graph, method='zero-boost')
-            G = nx.from_numpy_array(ptr_G)
-        else:
-            G = self.graph
-        tmp = []
+    #     # PTR graph
+    #     if not binary:
+    #         ptr_G = pass_to_ranks(self.graph, method='zero-boost')
+    #         G = nx.from_numpy_array(ptr_G)
+    #     else:
+    #         G = self.graph
+    #     tmp = []
 
-        for node in G.nodes:
+    #     for node in G.nodes:
 
-            k_hop = list(nx.single_source_shortest_path_length(
-                G, node, cutoff=k).keys())
-            induced = nx.get_edge_attributes(G.subgraph(k_hop), 'weight')
-            tmp += [sum(induced.values())]
+    #         k_hop = list(nx.single_source_shortest_path_length(
+    #             G, node, cutoff=k).keys())
+    #         induced = nx.get_edge_attributes(G.subgraph(k_hop), 'weight')
+    #         tmp += [sum(induced.values())]
 
-        if len(tmp) == self.num_nodes:
-            return max(tmp)
+    #     if len(tmp) == self.num_nodes:
+    #         return max(tmp)
 
     def return_stats(self):
         stats = [self.avg_degree(),
@@ -249,9 +249,10 @@ class Stats():
                  self.avg_ecc(),
                  self.diameter(),
                  self.num_isolates(),
-                 self.avg_shortest_path(),
-                 self.khop_locality(1),
-                 self.khop_locality(2)]
+                #  self.avg_shortest_path(),
+                #  self.khop_locality(1),
+                #  self.khop_locality(2)]
+                self.avg_shortest_path()]
 
         stats = [float(i) for i in stats]
 
