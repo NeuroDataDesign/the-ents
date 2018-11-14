@@ -18,7 +18,7 @@ def read_edgelist(filepath):
 
             line = line.split(' ')
             line[2] = line[2][:-1]
-            edges += [tuple(int(x) for x in line)]
+            edges += [tuple(int(round(x)) for x in line)]
 
         if edges = []:
             return
