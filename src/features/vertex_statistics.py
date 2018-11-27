@@ -1,4 +1,4 @@
-# vertex_statistics.sh
+# vertex_statistics.py
 # Created by Vivek Gopalakrishnan on 2018-11-16.
 # Email:
 # Copyright (c) 2018. All rights reserved.
