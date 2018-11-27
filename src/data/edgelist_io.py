@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # edgelist_io.py
 # Created by Vivek Gopalakrishnan on 2018-11-13.
 # Email: vgopala4@jhu.edu
