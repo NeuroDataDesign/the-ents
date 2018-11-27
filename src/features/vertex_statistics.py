@@ -3,6 +3,8 @@
 # Email:
 # Copyright (c) 2018. All rights reserved.
 
+import numpy as np
+import numpy as np
 import networkx as nx
 from graspy.utils import import_graph
 
@@ -25,7 +27,10 @@ class Stats():
         else:
             self.graph = graph
 
-    def khop_locality(self, radius):
+        if nx.get_edge_attributes(self.graph,'weight') == {}:
+            self.unweighted = True
+
+    def khop_locality(self, radius=1):
         '''
         `k-hop locality` is the cardinality of the edge set of the induced subgraph
         within k hops of vertex u.
@@ -36,8 +41,14 @@ class Stats():
         tmp = np.array(())
         for n in self.graph.nodes():
             subgraph = nx.ego_graph(self.graph, n, radius=radius)
-            tmp = np.append(tmp, np.sum([subgraph.get_edge_data(e[0], e[1])['weight']
-                                         for e in subgraph.edges()]))
+
+            if self.unweighted:
+                scan = subgraph.number_of_edges()
+            else:
+                scan = np.sum([subgraph.get_edge_data(e[0], e[1])['weight'] for e in subgraph.edges()])
+
+            tmp = np.append(tmp, scan)
+
         return tmp
 
     def degree(self):
@@ -47,7 +58,7 @@ class Stats():
 
         tmp = np.array(())
         for n in self.graph.nodes():
-            tmp = np.append(tmp, nx.degree(G, n))
+            tmp = np.append(tmp, nx.degree(self.graph, n))
 
         return tmp
 
@@ -55,6 +66,7 @@ class Stats():
         '''
         Return the degree centrality of every node in the graph
         '''
+
         tmp = np.array(())
         tmp = np.append(tmp, list(nx.degree_centrality(self.graph).values()))
 
@@ -72,6 +84,7 @@ class Stats():
         '''
         Return the eigenvector centrality for every node in the graph
         '''
+
         tmp = np.array(())
         tmp = np.append(
             tmp, list(nx.eigenvector_centrality(self.graph).values()))
@@ -82,8 +95,30 @@ class Stats():
         ''''
         Return the number of triangles each node in the graph is a vertex of
         '''
-        tmp = np.array()
+
+        tmp = np.array(())
         for node in self.graph.nodes():
             tmp = np.append(tmp, nx.triangles(self.graph, node))
 
         return tmp
+
+    def main(self):
+
+        public_method_names = [method for method in dir(Stats) if callable(
+            getattr(Stats, method)) if not method.startswith('_')]
+
+        public_method_names.remove('main')
+
+        stats = np.array(())
+        for method in public_method_names:
+
+            if method == 'khop_locality':
+                for radius in [1,2]:
+                    tmp = getattr(self, method)(radius)
+
+            else:
+                tmp = getattr(self, method)()
+
+            stats = np.append(stats, tmp)
+
+        return stats

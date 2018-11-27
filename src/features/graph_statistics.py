@@ -226,7 +226,7 @@ class Stats():
         if len(tmp) == self.num_nodes:
             return max(tmp)
 
-    def return_stats(self):
+    def main(self):
         stats = [self.avg_degree(),
                  self.max_degree(),
                  self.avg_neighbor_degree(),
