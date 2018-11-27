@@ -7,7 +7,7 @@ import networkx as nx
 from graspy.utils import import_graph
 
 
-class Stats(graph):
+class Stats():
 
     '''
     `Stats` class handles the calculation of multiple vertex statistics.
