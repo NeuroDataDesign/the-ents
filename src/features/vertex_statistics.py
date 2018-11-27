@@ -46,7 +46,7 @@ class Stats():
         '''
 
         tmp = np.array(())
-        for n in self.graph.nodes()
+        for n in self.graph.nodes():
             tmp = np.append(tmp, nx.degree(G, n))
 
         return tmp
