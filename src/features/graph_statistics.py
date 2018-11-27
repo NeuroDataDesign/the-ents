@@ -1,4 +1,4 @@
-# download_data.sh
+# graph_statistics.sh
 # Created by Ganesh Arvapalli on 2018-11-02.
 # Email:
 # Copyright (c) 2018. All rights reserved.

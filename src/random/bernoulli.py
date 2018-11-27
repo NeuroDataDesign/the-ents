@@ -16,6 +16,9 @@ import networkx as nx
 def RandomGraph(n, p, binary=True):
     """
     A function for simulating a random graph.
+    Turns out this is the Erdos-Reyni algorithm. Read more and add findings to the
+    documentation.
+
     Paramaters
     ----------
         n: int
