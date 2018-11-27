@@ -4,9 +4,8 @@
 # Copyright (c) 2018. All rights reserved.
 
 import numpy as np
-import numpy as np
 import networkx as nx
-from graspy.utils import import_graph
+# from graspy.utils import import_graph
 
 
 class Stats():
@@ -29,6 +28,8 @@ class Stats():
 
         if nx.get_edge_attributes(self.graph,'weight') == {}:
             self.unweighted = True
+        else:
+            self.unweighted = False
 
     def khop_locality(self, radius=1):
         '''
