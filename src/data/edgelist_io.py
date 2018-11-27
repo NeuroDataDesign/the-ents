@@ -8,7 +8,7 @@ import networkx as nx
 
 def read_edgelist(filepath):
 
-    with open(filepath)as f:
+    with open(filepath) as f:
 
         edges = []
 
