@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # edgelist_io.py
 # Created by Vivek Gopalakrishnan on 2018-11-13.
 # Email: vgopala4@jhu.edu
@@ -10,7 +8,7 @@ import networkx as nx
 
 def read_edgelist(filepath):
 
-    with open(filepath)as f:
+    with open(filepath) as f:
 
         edges = []
 
