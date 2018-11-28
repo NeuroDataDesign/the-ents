@@ -34,7 +34,6 @@ class Stats():
 
     def max_degree(self):
         # Maximum degree of graph
-        print("Graph degree size:", self.graph.degree())
         deg_seq = [d for n, d in self.graph.degree()]
         return max(deg_seq)
 
