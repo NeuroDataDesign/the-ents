@@ -1,3 +1,3 @@
-from .bernoulli import RandomGraph
-
-__all__ = ['RandomGraph']
+from __future__ import absolute_import
+# Prevent typing multilevel imports
+from . import *
