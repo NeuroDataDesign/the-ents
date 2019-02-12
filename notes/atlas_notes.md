@@ -44,5 +44,20 @@
 - Compared to random parcellations as well
 - All were dissimilar from random, except TALc, which had registration difficulties
 
-
-
+[fMRI atlas generation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3838923/)
+- Need to represent "functional connectivity patterns"
+- Compared against Talairach and Tournoux, Harvard-Oxford, Eickoff-Zilles, and Automatic Anatomical Labeling as well as just random parcellation
+- Require
+    - functional homogeneity (connected regions)
+    - spatial contiguous
+    - Group-level parcellation should fit individuals
+    - Individual voxels should fit into parcellation
+- Could try to define ROI based on research, but it's all just hypothesizing and not really based on data
+- Could also use previous atlases, but don't really separate based on function
+- Anatomical atlases are also higher resolution than fMRI images so could cause errors when applied
+- Anatomical ROI's and functional ROI's don't necessarily match
+- Use normalized cut method (NCUT) to cluster resting state data
+- Convert each voxel to a node and turn whole brain into a graph, edge weights correspond to similarity between nodes
+    - Edges removed iteratively until specified number of clusters reached based on similarity between clusters
+    - Basically spectral clustering
+- Do you choose temporal or spatial similarity more? How many clusters?
