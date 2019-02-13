@@ -61,3 +61,9 @@
     - Edges removed iteratively until specified number of clusters reached based on similarity between clusters
     - Basically spectral clustering
 - Do you choose temporal or spatial similarity more? How many clusters?
+
+- Each edge cut has a cost and to implement this method, all they did was just normalize the cost by the total edge weights in the specified regions (cut(A,B) * (1/assoc(A, V) + 1/assoc(B, V)))
+- Group level done by averaging individual graphs together
+- Used Dice Coefficient to measure similarity between graphs
+- Used New York University test-retest [data set](http://fcon_1000.projects.nitrc.org/)
+- 
