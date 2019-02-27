@@ -21,7 +21,7 @@ function [atlas1_cell, atlas2_cell, DiceValues1] = DiceCalculator(atlas1File,atl
 %                            the second atlas. Each value Aij is the Dice
 %                            coefficient between the ith ROI in the first
 %                            atlas and the jth ROI in the second atlas
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Read in atlas nifti files
 atlas1 = double(niftiread(atlas1File));
