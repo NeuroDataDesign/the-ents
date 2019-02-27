@@ -66,4 +66,15 @@
 - Group level done by averaging individual graphs together
 - Used Dice Coefficient to measure similarity between graphs
 - Used New York University test-retest [data set](http://fcon_1000.projects.nitrc.org/)
-- 
+
+[DS Atlas](https://arxiv.org/abs/1312.4318)
+- Use graphs to represent brains --> "Connectomics"
+- Sparse matrix representation to allow graphs to represent voxels rather than whole regions
+- The following statistics are calculation:
+    - Degree
+    - Scan Statistic-i
+    - Number of local 3-cliques
+    - Clustering coeff
+    - Latent Position vector
+- (Can't seem to find github page)
+- Uses software called MIGRAINE which analyzes MRI images to generate graphs and extract largest connected component (LCC)
