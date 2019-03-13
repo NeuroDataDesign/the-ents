@@ -1,0 +1,261 @@
+{
+    "0": {
+        "center": null,
+        "size": "6693346 voxels"
+    },
+    "1": {
+        "center": [
+            -27.946819052652444,
+            -82.33850829094273,
+            -1.8087467794146619
+        ],
+        "color": [
+            120,
+            18,
+            134
+        ],
+        "description": "Visual A",
+        "label": "17Networks_1",
+        "size": "30249 voxels"
+    },
+    "10": {
+        "center": [
+            -13.582722292456793,
+            39.020143278550364,
+            -17.834555415086385
+        ],
+        "color": [
+            122,
+            135,
+            50
+        ],
+        "description": "Control A",
+        "label": "17Networks_10",
+        "size": "23176 voxels"
+    },
+    "11": {
+        "center": [
+            8.349422875131168,
+            -57.5099685204617,
+            42.020146904512075
+        ],
+        "color": [
+            119,
+            140,
+            176
+        ],
+        "description": "Control B",
+        "label": "17Networks_11",
+        "size": "11278 voxels"
+    },
+    "12": {
+        "center": [
+            -42.989590110605064,
+            21.75027109086966,
+            22.45760138798525
+        ],
+        "color": [
+            230,
+            148,
+            34
+        ],
+        "description": "Control C",
+        "label": "17Networks_12",
+        "size": "36922 voxels"
+    },
+    "13": {
+        "center": [
+            32.10790437217317,
+            55.015507215162614,
+            -1.729377557613617
+        ],
+        "color": [
+            135,
+            50,
+            74
+        ],
+        "description": "Default A",
+        "label": "17Networks_13",
+        "size": "43741 voxels"
+    },
+    "14": {
+        "center": [
+            55.50707213578501,
+            -24.441907456051723,
+            0.9098807839967549
+        ],
+        "color": [
+            12,
+            48,
+            255
+        ],
+        "description": "Default B",
+        "label": "17Networks_14",
+        "size": "19171 voxels"
+    },
+    "15": {
+        "center": [
+            -25.94797441364605,
+            -31.475479744136464,
+            -18.882729211087423
+        ],
+        "color": [
+            0,
+            0,
+            130
+        ],
+        "description": "Default C",
+        "label": "17Networks_15",
+        "size": "10935 voxels"
+    },
+    "16": {
+        "center": [
+            7.829111531190932,
+            50.50879017013233,
+            6.864177693761803
+        ],
+        "color": [
+            255,
+            255,
+            0
+        ],
+        "description": "Limbic A",
+        "label": "17Networks_16",
+        "size": "49922 voxels"
+    },
+    "17": {
+        "center": [
+            -56.03174496644294,
+            -12.536979865771798,
+            -18.778523489932894
+        ],
+        "color": [
+            205,
+            62,
+            78
+        ],
+        "description": "Limbic B",
+        "label": "17Networks_17",
+        "size": "58461 voxels"
+    },
+    "2": {
+        "center": [
+            14.52242814934192,
+            -66.30154893007432,
+            9.84922553496284
+        ],
+        "color": [
+            255,
+            0,
+            0
+        ],
+        "description": "Visual B",
+        "label": "17Networks_2",
+        "size": "21732 voxels"
+    },
+    "3": {
+        "center": [
+            -21.50858353938537,
+            -25.41709643235606,
+            61.02889438361004
+        ],
+        "color": [
+            70,
+            130,
+            180
+        ],
+        "description": "Somatomotor A",
+        "label": "17Networks_3",
+        "size": "27479 voxels"
+    },
+    "4": {
+        "center": [
+            -50.97226941747573,
+            -15.506067961165058,
+            15.825910194174753
+        ],
+        "color": [
+            42,
+            204,
+            164
+        ],
+        "description": "Somatomotor B",
+        "label": "17Networks_4",
+        "size": "31672 voxels"
+    },
+    "5": {
+        "center": [
+            39.416885339418144,
+            -60.14500855675985,
+            16.399429549343978
+        ],
+        "color": [
+            74,
+            155,
+            60
+        ],
+        "description": "Temporal Parietal",
+        "label": "17Networks_5",
+        "size": "31861 voxels"
+    },
+    "6": {
+        "center": [
+            34.56004852405985,
+            -37.8489014692007,
+            53.56328346138294
+        ],
+        "color": [
+            0,
+            118,
+            14
+        ],
+        "description": "Dorsal Attention A",
+        "label": "17Networks_6",
+        "size": "25323 voxels"
+    },
+    "7": {
+        "center": [
+            -42.42906670364721,
+            1.4167244487588277,
+            1.6972680626820136
+        ],
+        "color": [
+            196,
+            58,
+            250
+        ],
+        "description": "Dorsal Attnetion B",
+        "label": "17Networks_7",
+        "size": "36348 voxels"
+    },
+    "8": {
+        "center": [
+            36.18557525663245,
+            45.94200773230236,
+            21.705505932542323
+        ],
+        "color": [
+            255,
+            152,
+            213
+        ],
+        "description": "Salience/Ventral Attention A",
+        "label": "17Networks_8",
+        "size": "35315 voxels"
+    },
+    "9": {
+        "center": [
+            36.542223254733415,
+            -1.8109536531536605,
+            -34.73370890928098
+        ],
+        "color": [
+            200,
+            248,
+            164
+        ],
+        "description": "Salience/Ventral Attention B",
+        "label": "17Networks_8",
+        "size": "34083 voxels"
+    }
+}

@@ -1,0 +1,439 @@
+{
+    "0": {
+        "center": null,
+        "label": null,
+        "size": "7051025 voxels"
+    },
+    "1": {
+        "center": [
+            0.5,
+            -39.88532344668883,
+            -35.35579135770902
+        ],
+        "label": "Middle cerebellar peduncle",
+        "size": "15643 voxels"
+    },
+    "10": {
+        "center": [
+            -4.530758226037193,
+            -36.715307582260365,
+            -33.44062947067239
+        ],
+        "label": "Medial lemniscus L",
+        "size": "698 voxels"
+    },
+    "11": {
+        "center": [
+            9.414256198347104,
+            -44.375,
+            -37.361570247933884
+        ],
+        "label": "Inferior cerebellar peduncle R  ",
+        "size": "967 voxels"
+    },
+    "12": {
+        "center": [
+            -8.414256198347104,
+            -44.375,
+            -37.361570247933884
+        ],
+        "label": "Inferior cerebellar peduncle L",
+        "size": "967 voxels"
+    },
+    "13": {
+        "center": [
+            6.514112903225808,
+            -41.62399193548387,
+            -24.607862903225808
+        ],
+        "label": "Superior cerebellar peduncle R",
+        "size": "991 voxels"
+    },
+    "14": {
+        "center": [
+            -5.514112903225808,
+            -41.62399193548387,
+            -24.607862903225808
+        ],
+        "label": "Superior cerebellar peduncle L",
+        "size": "991 voxels"
+    },
+    "15": {
+        "center": [
+            13.282704126426694,
+            -18.366988586479366,
+            -12.488147497805095
+        ],
+        "label": "Cerebral peduncle R",
+        "size": "2277 voxels"
+    },
+    "16": {
+        "center": [
+            -12.282704126426694,
+            -18.366988586479366,
+            -12.488147497805095
+        ],
+        "label": "Cerebral peduncle L",
+        "size": "2277 voxels"
+    },
+    "17": {
+        "center": [
+            18.07138304652645,
+            7.588272785213519,
+            8.063416188655196
+        ],
+        "label": "Anterior limb of internal capsule R",
+        "size": "3137 voxels"
+    },
+    "18": {
+        "center": [
+            -17.21603711066932,
+            7.425115970841603,
+            8.259111994698472
+        ],
+        "label": "Anterior limb of internal capsule L",
+        "size": "3017 voxels"
+    },
+    "19": {
+        "center": [
+            20.463239211507727,
+            -13.170751198721362,
+            7.851891315929677
+        ],
+        "label": "Posterior limb of internal capsule R",
+        "size": "3753 voxels"
+    },
+    "2": {
+        "center": [
+            0.5,
+            -29.227999999999994,
+            -30.819333333333333
+        ],
+        "label": "Pontine crossing tract (a part of MCP)",
+        "size": "1499 voxels"
+    },
+    "20": {
+        "center": [
+            -19.466684434968016,
+            -13.177238805970148,
+            7.853944562899784
+        ],
+        "label": "Posterior limb of internal capsule L",
+        "size": "3751 voxels"
+    },
+    "21": {
+        "center": [
+            31.521669980119285,
+            -29.260039761431415,
+            6.018290258449298
+        ],
+        "label": "Retrolenticular part of internal capsule R",
+        "size": "2514 voxels"
+    },
+    "22": {
+        "center": [
+            -30.201701093560146,
+            -29.44714459295261,
+            5.816119886593768
+        ],
+        "label": "Retrolenticular part of internal capsule L",
+        "size": "2468 voxels"
+    },
+    "23": {
+        "center": [
+            21.546357132428085,
+            28.06453496860854,
+            9.742006132282086
+        ],
+        "label": "Anterior corona radiata R",
+        "size": "6848 voxels"
+    },
+    "24": {
+        "center": [
+            -20.546409807355516,
+            28.06450671336836,
+            9.73759486281378
+        ],
+        "label": "Anterior corona radiata L",
+        "size": "6851 voxels"
+    },
+    "25": {
+        "center": [
+            23.91973333333334,
+            -7.82586666666667,
+            30.027600000000007
+        ],
+        "label": "Superior corona radiata R",
+        "size": "7499 voxels"
+    },
+    "26": {
+        "center": [
+            -22.935935002663825,
+            -7.831646244006393,
+            30.008923814597765
+        ],
+        "label": "Superior corona radiata L",
+        "size": "7507 voxels"
+    },
+    "27": {
+        "center": [
+            25.44769313304721,
+            -38.14216738197425,
+            27.82188841201716
+        ],
+        "label": "Posterior corona radiata R",
+        "size": "3727 voxels"
+    },
+    "28": {
+        "center": [
+            -24.361335487345187,
+            -38.01211631663975,
+            27.946957458266013
+        ],
+        "label": "Posterior corona radiata L",
+        "size": "3713 voxels"
+    },
+    "29": {
+        "center": [
+            33.8766364551863,
+            -54.69612286002014,
+            7.213746223564954
+        ],
+        "label": "Posterior thalamic radiation (include optic radiation) R",
+        "size": "3971 voxels"
+    },
+    "3": {
+        "center": [
+            0.2595186984521547,
+            26.110495989153776,
+            7.265958648740252
+        ],
+        "label": "Genu of corpus callosum",
+        "size": "8850 voxels"
+    },
+    "30": {
+        "center": [
+            -32.623931623931625,
+            -54.74861739567622,
+            7.148064353946708
+        ],
+        "label": "Posterior thalamic radiation (include optic radiation) L",
+        "size": "3977 voxels"
+    },
+    "31": {
+        "center": [
+            39.809694793536806,
+            -31.504039497307005,
+            -9.397217235188506
+        ],
+        "label": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus) R",
+        "size": "2227 voxels"
+    },
+    "32": {
+        "center": [
+            -38.798744957418194,
+            -31.498431196772742,
+            -9.385477364410576
+        ],
+        "label": "Sagittal stratum (include inferior longitidinal fasciculus and inferior fronto-occipital fasciculus) L",
+        "size": "2230 voxels"
+    },
+    "33": {
+        "center": [
+            30.600427731242206,
+            0.2487970058813005,
+            1.3382641240420554
+        ],
+        "label": "External capsule R",
+        "size": "5610 voxels"
+    },
+    "34": {
+        "center": [
+            -29.58421335242528,
+            0.2649006622516481,
+            1.3950241632360871
+        ],
+        "label": "External capsule L",
+        "size": "5586 voxels"
+    },
+    "35": {
+        "center": [
+            8.168659265584964,
+            -11.126387702818107,
+            29.935098206660967
+        ],
+        "label": "Cingulum (cingulate gyrus) R",
+        "size": "2341 voxels"
+    },
+    "36": {
+        "center": [
+            -7.268629589240277,
+            -10.166484914576515,
+            29.970556161395848
+        ],
+        "label": "Cingulum (cingulate gyrus) L",
+        "size": "2750 voxels"
+    },
+    "37": {
+        "center": [
+            22.048543689320383,
+            -29.246763754045304,
+            -13.946601941747574
+        ],
+        "label": "Cingulum (hippocampus) R",
+        "size": "1235 voxels"
+    },
+    "38": {
+        "center": [
+            -19.64588744588744,
+            -32.029437229437235,
+            -12.708225108225108
+        ],
+        "label": "Cingulum (hippocampus) L",
+        "size": "1154 voxels"
+    },
+    "39": {
+        "center": [
+            29.078291814946617,
+            -23.967971530249116,
+            -6.218861209964416
+        ],
+        "label": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution) R",
+        "size": "1123 voxels"
+    },
+    "4": {
+        "center": [
+            0.6386113339654287,
+            -5.250820509080299,
+            27.299248778353146
+        ],
+        "label": "Body of corpus callosum",
+        "size": "13710 voxels"
+    },
+    "40": {
+        "center": [
+            -28.104,
+            -23.980444444444444,
+            -6.23555555555555
+        ],
+        "label": "Fornix (cres) / Stria terminalis (can not be resolved with current resolution) L",
+        "size": "1124 voxels"
+    },
+    "41": {
+        "center": [
+            36.434387770546394,
+            -25.59663992734977,
+            25.928106553655212
+        ],
+        "label": "Superior longitudinal fasciculus R",
+        "size": "6606 voxels"
+    },
+    "42": {
+        "center": [
+            -35.43573050719152,
+            -25.597577592732776,
+            25.926570779712335
+        ],
+        "label": "Superior longitudinal fasciculus L",
+        "size": "6604 voxels"
+    },
+    "43": {
+        "center": [
+            21.224852071005913,
+            2.021696252465489,
+            21.12228796844181
+        ],
+        "label": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule) R",
+        "size": "506 voxels"
+    },
+    "44": {
+        "center": [
+            -20.224852071005913,
+            2.021696252465489,
+            21.12228796844181
+        ],
+        "label": "Superior fronto-occipital fasciculus (could be a part of anterior internal capsule) L",
+        "size": "506 voxels"
+    },
+    "45": {
+        "center": [
+            34.0,
+            1.155263157894737,
+            -15.792105263157893
+        ],
+        "label": "Uncinate fasciculus R",
+        "size": "379 voxels"
+    },
+    "46": {
+        "center": [
+            -33.5,
+            -1.1143617021276668,
+            -15.922872340425535
+        ],
+        "label": "Uncinate fasciculus L",
+        "size": "375 voxels"
+    },
+    "47": {
+        "center": [
+            29.506711409395976,
+            -44.65939597315436,
+            14.426174496644293
+        ],
+        "label": "Tapetum R",
+        "size": "595 voxels"
+    },
+    "48": {
+        "center": [
+            -27.040000000000006,
+            -46.709999999999994,
+            14.36333333333333
+        ],
+        "label": "Tapetum L",
+        "size": "599 voxels"
+    },
+    "5": {
+        "center": [
+            0.6870139052557107,
+            -42.15829994500746,
+            17.829051771545295
+        ],
+        "label": "Splenium of corpus callosum",
+        "size": "12728 voxels"
+    },
+    "6": {
+        "center": [
+            0.5113808801213935,
+            -6.128983308042493,
+            12.864946889226104
+        ],
+        "label": "Fornix (column and body of fornix)",
+        "size": "658 voxels"
+    },
+    "7": {
+        "center": [
+            7.090308370044056,
+            -24.904552129221727,
+            -32.6424375917768
+        ],
+        "label": "Corticospinal tract R",
+        "size": "1361 voxels"
+    },
+    "8": {
+        "center": [
+            -6.043795620437962,
+            -24.989051094890513,
+            -32.80510948905109
+        ],
+        "label": "Corticospinal tract L",
+        "size": "1369 voxels"
+    },
+    "9": {
+        "center": [
+            5.589855072463763,
+            -36.71739130434783,
+            -33.46231884057971
+        ],
+        "label": "Medial lemniscus R",
+        "size": "689 voxels"
+    }
+}

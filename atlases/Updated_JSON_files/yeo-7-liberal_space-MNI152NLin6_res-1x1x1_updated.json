@@ -1,0 +1,111 @@
+{
+    "0": {
+        "center": null,
+        "size": "6166298 voxels"
+    },
+    "1": {
+        "center": [
+            2.5343408446903197,
+            -75.47710048126659,
+            3.8861208563846503
+        ],
+        "color": [
+            120,
+            18,
+            134
+        ],
+        "description": "Visual",
+        "label": "7Networks_1",
+        "size": "178224 voxels"
+    },
+    "2": {
+        "center": [
+            0.47275095107039533,
+            -19.887481796544705,
+            39.56089737421172
+        ],
+        "color": [
+            70,
+            130,
+            180
+        ],
+        "description": "Somatomotor",
+        "label": "7Networks_2",
+        "size": "155894 voxels"
+    },
+    "3": {
+        "center": [
+            2.0098291646231843,
+            -55.30227235572994,
+            34.7379230014713
+        ],
+        "color": [
+            0,
+            118,
+            14
+        ],
+        "description": "Dorsal Attention",
+        "label": "7Networks_3",
+        "size": "122713 voxels"
+    },
+    "4": {
+        "center": [
+            1.0635659362895353,
+            -4.186303983349717,
+            48.05885413655547
+        ],
+        "color": [
+            196,
+            58,
+            250
+        ],
+        "description": "Ventral Attention",
+        "label": "7Networks_4",
+        "size": "109289 voxels"
+    },
+    "5": {
+        "center": [
+            0.5848739677929728,
+            12.382843147879242,
+            -27.557207568434507
+        ],
+        "color": [
+            220,
+            248,
+            164
+        ],
+        "description": "Limbic",
+        "label": "7Networks_5",
+        "size": "92291 voxels"
+    },
+    "6": {
+        "center": [
+            38.09182412465299,
+            33.804047640368935,
+            23.391242052476045
+        ],
+        "color": [
+            230,
+            148,
+            34
+        ],
+        "description": "Frontoparietal",
+        "label": "7Networks_6",
+        "size": "155338 voxels"
+    },
+    "7": {
+        "center": [
+            -9.889644261628177,
+            41.19637481354246,
+            21.690222845002936
+        ],
+        "color": [
+            205,
+            62,
+            78
+        ],
+        "description": "Default",
+        "label": "7Networks_7",
+        "size": "240977 voxels"
+    }
+}
