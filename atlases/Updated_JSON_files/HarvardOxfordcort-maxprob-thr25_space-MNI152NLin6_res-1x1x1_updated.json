@@ -2,7 +2,7 @@
     "0": {
         "center": null,
         "label": "Unclassified",
-        "size": "6166658 voxels"
+        "size": "6166658"
     },
     "1": {
         "center": [
@@ -11,7 +11,7 @@
             7.86733639257514
         ],
         "label": "Frontal Pole",
-        "size": "120947 voxels"
+        "size": "120947"
     },
     "10": {
         "center": [
@@ -20,7 +20,7 @@
             1.580417434008595
         ],
         "label": "Superior Temporal Gyrus, posterior division",
-        "size": "6487 voxels"
+        "size": "6487"
     },
     "11": {
         "center": [
@@ -29,7 +29,7 @@
             -22.139142461964042
         ],
         "label": "Middle Temporal Gyrus, anterior division",
-        "size": "6951 voxels"
+        "size": "6951"
     },
     "12": {
         "center": [
@@ -38,7 +38,7 @@
             -12.149858279235623
         ],
         "label": "Middle Temporal Gyrus, posterior division",
-        "size": "21878 voxels"
+        "size": "21878"
     },
     "13": {
         "center": [
@@ -47,7 +47,7 @@
             1.5988510730544192
         ],
         "label": "Middle Temporal Gyrus, temporooccipital part",
-        "size": "16040 voxels"
+        "size": "16040"
     },
     "14": {
         "center": [
@@ -56,7 +56,7 @@
             -39.19107340464773
         ],
         "label": "Inferior Temporal Gyrus, anterior division",
-        "size": "5384 voxels"
+        "size": "5384"
     },
     "15": {
         "center": [
@@ -65,7 +65,7 @@
             -25.98965262379896
         ],
         "label": "Inferior Temporal Gyrus, posterior division",
-        "size": "15744 voxels"
+        "size": "15744"
     },
     "16": {
         "center": [
@@ -74,7 +74,7 @@
             -16.73076312866889
         ],
         "label": "Inferior Temporal Gyrus, temporooccipital part",
-        "size": "11972 voxels"
+        "size": "11972"
     },
     "17": {
         "center": [
@@ -83,7 +83,7 @@
             52.13909094198965
         ],
         "label": "Postcentral Gyrus",
-        "size": "55268 voxels"
+        "size": "55268"
     },
     "18": {
         "center": [
@@ -92,7 +92,7 @@
             58.90380540723791
         ],
         "label": "Superior Parietal Lobule",
-        "size": "23449 voxels"
+        "size": "23449"
     },
     "19": {
         "center": [
@@ -101,7 +101,7 @@
             37.19465851714058
         ],
         "label": "Supramarginal Gyrus, anterior division",
-        "size": "13830 voxels"
+        "size": "13830"
     },
     "2": {
         "center": [
@@ -110,7 +110,7 @@
             -0.17378020553653073
         ],
         "label": "Insular Cortex",
-        "size": "21448 voxels"
+        "size": "21448"
     },
     "20": {
         "center": [
@@ -119,7 +119,7 @@
             33.60434173669468
         ],
         "label": "Supramarginal Gyrus, posterior division",
-        "size": "18719 voxels"
+        "size": "18719"
     },
     "21": {
         "center": [
@@ -128,7 +128,7 @@
             32.35586124401914
         ],
         "label": "Angular Gyrus",
-        "size": "19541 voxels"
+        "size": "19541"
     },
     "22": {
         "center": [
@@ -137,7 +137,7 @@
             37.97183772084361
         ],
         "label": "Lateral Occipital Cortex, superior division",
-        "size": "78195 voxels"
+        "size": "78195"
     },
     "23": {
         "center": [
@@ -146,7 +146,7 @@
             -1.8977245071793618
         ],
         "label": "Lateral Occipital Cortex, inferior division",
-        "size": "32848 voxels"
+        "size": "32848"
     },
     "24": {
         "center": [
@@ -155,7 +155,7 @@
             8.177785632234688
         ],
         "label": "Intracalcarine Cortex",
-        "size": "11316 voxels"
+        "size": "11316"
     },
     "25": {
         "center": [
@@ -164,7 +164,7 @@
             -18.51269881990764
         ],
         "label": "Frontal Medial Cortex",
-        "size": "7795 voxels"
+        "size": "7795"
     },
     "26": {
         "center": [
@@ -173,7 +173,7 @@
             56.89842704149933
         ],
         "label": "Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",
-        "size": "11953 voxels"
+        "size": "11953"
     },
     "27": {
         "center": [
@@ -182,7 +182,7 @@
             -14.832612792373354
         ],
         "label": "Subcallosal Cortex",
-        "size": "9020 voxels"
+        "size": "9020"
     },
     "28": {
         "center": [
@@ -191,7 +191,7 @@
             21.808714728148658
         ],
         "label": "Paracingulate Gyrus",
-        "size": "23251 voxels"
+        "size": "23251"
     },
     "29": {
         "center": [
@@ -200,7 +200,7 @@
             24.345087315294563
         ],
         "label": "Cingulate Gyrus, anterior division",
-        "size": "20843 voxels"
+        "size": "20843"
     },
     "3": {
         "center": [
@@ -209,7 +209,7 @@
             56.4352756532119
         ],
         "label": "Superior Frontal Gyrus",
-        "size": "45245 voxels"
+        "size": "45245"
     },
     "30": {
         "center": [
@@ -218,7 +218,7 @@
             29.975088412731424
         ],
         "label": "Cingulate Gyrus, posterior division",
-        "size": "19227 voxels"
+        "size": "19227"
     },
     "31": {
         "center": [
@@ -227,7 +227,7 @@
             38.02688340106283
         ],
         "label": "Precuneous Cortex",
-        "size": "44786 voxels"
+        "size": "44786"
     },
     "32": {
         "center": [
@@ -236,7 +236,7 @@
             27.507853403141354
         ],
         "label": "Cuneal Cortex",
-        "size": "9933 voxels"
+        "size": "9933"
     },
     "33": {
         "center": [
@@ -245,7 +245,7 @@
             -16.57261042990102
         ],
         "label": "Frontal Orbital Cortex",
-        "size": "25156 voxels"
+        "size": "25156"
     },
     "34": {
         "center": [
@@ -254,7 +254,7 @@
             -30.256074411541384
         ],
         "label": "Parahippocampal Gyrus, anterior division",
-        "size": "9955 voxels"
+        "size": "9955"
     },
     "35": {
         "center": [
@@ -263,7 +263,7 @@
             -16.88565891472868
         ],
         "label": "Parahippocampal Gyrus, posterior division",
-        "size": "5697 voxels"
+        "size": "5697"
     },
     "36": {
         "center": [
@@ -272,7 +272,7 @@
             -5.150861267160238
         ],
         "label": "Lingual Gyrus",
-        "size": "26879 voxels"
+        "size": "26879"
     },
     "37": {
         "center": [
@@ -281,7 +281,7 @@
             -41.91346526969344
         ],
         "label": "Temporal Fusiform Cortex, anterior division",
-        "size": "4900 voxels"
+        "size": "4900"
     },
     "38": {
         "center": [
@@ -290,7 +290,7 @@
             -25.075596435757404
         ],
         "label": "Temporal Fusiform Cortex, posterior division",
-        "size": "12679 voxels"
+        "size": "12679"
     },
     "39": {
         "center": [
@@ -299,7 +299,7 @@
             -16.640811998182095
         ],
         "label": "Temporal Occipital Fusiform Cortex",
-        "size": "11758 voxels"
+        "size": "11758"
     },
     "4": {
         "center": [
@@ -308,7 +308,7 @@
             42.064031418082465
         ],
         "label": "Middle Frontal Gyrus",
-        "size": "45498 voxels"
+        "size": "45498"
     },
     "40": {
         "center": [
@@ -317,7 +317,7 @@
             -13.588298878529926
         ],
         "label": "Occipital Fusiform Gyrus",
-        "size": "14537 voxels"
+        "size": "14537"
     },
     "41": {
         "center": [
@@ -326,7 +326,7 @@
             4.529808374733847
         ],
         "label": "Frontal Operculum Cortex",
-        "size": "5312 voxels"
+        "size": "5312"
     },
     "42": {
         "center": [
@@ -335,7 +335,7 @@
             11.813140368852459
         ],
         "label": "Central Opercular Cortex",
-        "size": "14952 voxels"
+        "size": "14952"
     },
     "43": {
         "center": [
@@ -344,7 +344,7 @@
             20.461227242076873
         ],
         "label": "Parietal Operculum Cortex",
-        "size": "8738 voxels"
+        "size": "8738"
     },
     "44": {
         "center": [
@@ -353,7 +353,7 @@
             -7.1864576384256225
         ],
         "label": "Planum Polare",
-        "size": "5870 voxels"
+        "size": "5870"
     },
     "45": {
         "center": [
@@ -362,7 +362,7 @@
             7.192261667331479
         ],
         "label": "Heschl's Gyrus (includes H1 and H2)",
-        "size": "4729 voxels"
+        "size": "4729"
     },
     "46": {
         "center": [
@@ -371,7 +371,7 @@
             10.789133823201965
         ],
         "label": "Planum Temporale",
-        "size": "8031 voxels"
+        "size": "8031"
     },
     "47": {
         "center": [
@@ -380,7 +380,7 @@
             13.1811697574893
         ],
         "label": "Supracalcarine Cortex",
-        "size": "2080 voxels"
+        "size": "2080"
     },
     "48": {
         "center": [
@@ -389,7 +389,7 @@
             7.503252090629687
         ],
         "label": "Occipital Pole",
-        "size": "41972 voxels"
+        "size": "41972"
     },
     "5": {
         "center": [
@@ -398,7 +398,7 @@
             8.681380107941408
         ],
         "label": "Inferior Frontal Gyrus, pars triangularis",
-        "size": "9502 voxels"
+        "size": "9502"
     },
     "6": {
         "center": [
@@ -407,7 +407,7 @@
             15.39432739059967
         ],
         "label": "Inferior Frontal Gyrus, pars opercularis",
-        "size": "11673 voxels"
+        "size": "11673"
     },
     "7": {
         "center": [
@@ -416,7 +416,7 @@
             49.82875910324147
         ],
         "label": "Precentral Gyrus",
-        "size": "70030 voxels"
+        "size": "70030"
     },
     "8": {
         "center": [
@@ -425,7 +425,7 @@
             -29.621144213023996
         ],
         "label": "Temporal Pole",
-        "size": "37826 voxels"
+        "size": "37826"
     },
     "9": {
         "center": [
@@ -434,6 +434,6 @@
             -10.165925266903912
         ],
         "label": "Superior Temporal Gyrus, anterior division",
-        "size": "4481 voxels"
+        "size": "4481"
     }
 }

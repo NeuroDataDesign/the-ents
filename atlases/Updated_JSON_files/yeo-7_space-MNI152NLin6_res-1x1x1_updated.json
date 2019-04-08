@@ -1,7 +1,7 @@
 {
     "0": {
         "center": null,
-        "size": "6693346 voxels"
+        "size": "6693346"
     },
     "1": {
         "center": [
@@ -16,7 +16,7 @@
         ],
         "description": "Visual",
         "label": "7Networks_1",
-        "size": "65694 voxels"
+        "size": "65694"
     },
     "2": {
         "center": [
@@ -31,7 +31,7 @@
         ],
         "description": "Somatomotor",
         "label": "7Networks_2",
-        "size": "68195 voxels"
+        "size": "68195"
     },
     "3": {
         "center": [
@@ -46,7 +46,7 @@
         ],
         "description": "Dorsal Attention",
         "label": "7Networks_3",
-        "size": "58277 voxels"
+        "size": "58277"
     },
     "4": {
         "center": [
@@ -61,7 +61,7 @@
         ],
         "description": "Ventral Attention",
         "label": "7Networks_4",
-        "size": "58933 voxels"
+        "size": "58933"
     },
     "5": {
         "center": [
@@ -76,7 +76,7 @@
         ],
         "description": "Limbic",
         "label": "7Networks_5",
-        "size": "58136 voxels"
+        "size": "58136"
     },
     "6": {
         "center": [
@@ -91,7 +91,7 @@
         ],
         "description": "Frontoparietal",
         "label": "7Networks_6",
-        "size": "83221 voxels"
+        "size": "83221"
     },
     "7": {
         "center": [
@@ -106,6 +106,6 @@
         ],
         "description": "Default",
         "label": "7Networks_7",
-        "size": "135222 voxels"
+        "size": "135222"
     }
 }

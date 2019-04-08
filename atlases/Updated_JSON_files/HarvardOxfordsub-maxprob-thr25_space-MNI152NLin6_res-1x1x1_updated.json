@@ -2,7 +2,7 @@
     "0": {
         "center": null,
         "label": "Unclassified",
-        "size": "5579699 voxels"
+        "size": "5579699"
     },
     "1": {
         "center": [
@@ -11,7 +11,7 @@
             18.030863257454314
         ],
         "label": "Left Cerebral White Matter",
-        "size": "249574 voxels"
+        "size": "249574"
     },
     "10": {
         "center": [
@@ -20,7 +20,7 @@
             -18.072697899838445
         ],
         "label": "Left Amygdala",
-        "size": "2475 voxels"
+        "size": "2475"
     },
     "11": {
         "center": [
@@ -29,7 +29,7 @@
             -7.071428571428569
         ],
         "label": "Left Accumbens",
-        "size": "755 voxels"
+        "size": "755"
     },
     "12": {
         "center": [
@@ -38,7 +38,7 @@
             17.76655786753706
         ],
         "label": "Right Cerebral White Matter",
-        "size": "250062 voxels"
+        "size": "250062"
     },
     "13": {
         "center": [
@@ -47,7 +47,7 @@
             17.160893418005458
         ],
         "label": "Right Cerebral Cortex ",
-        "size": "509100 voxels"
+        "size": "509100"
     },
     "14": {
         "center": [
@@ -56,7 +56,7 @@
             14.156363197295335
         ],
         "label": "Right Lateral Ventricle",
-        "size": "8282 voxels"
+        "size": "8282"
     },
     "15": {
         "center": [
@@ -65,7 +65,7 @@
             6.664577416511605
         ],
         "label": "Right Thalamus",
-        "size": "10210 voxels"
+        "size": "10210"
     },
     "16": {
         "center": [
@@ -74,7 +74,7 @@
             10.449963653985947
         ],
         "label": "Right Caudate",
-        "size": "4126 voxels"
+        "size": "4126"
     },
     "17": {
         "center": [
@@ -83,7 +83,7 @@
             0.30420509613881563
         ],
         "label": "Right Putamen",
-        "size": "6396 voxels"
+        "size": "6396"
     },
     "18": {
         "center": [
@@ -92,7 +92,7 @@
             -1.1543909348441872
         ],
         "label": "Right Pallidum",
-        "size": "2117 voxels"
+        "size": "2117"
     },
     "19": {
         "center": [
@@ -101,7 +101,7 @@
             -14.482243319268633
         ],
         "label": "Right Hippocampus",
-        "size": "5687 voxels"
+        "size": "5687"
     },
     "2": {
         "center": [
@@ -110,7 +110,7 @@
             16.993867424005998
         ],
         "label": "Left Cerebral Cortex ",
-        "size": "512674 voxels"
+        "size": "512674"
     },
     "20": {
         "center": [
@@ -119,7 +119,7 @@
             -18.000351123595507
         ],
         "label": "Right Amygdala",
-        "size": "2847 voxels"
+        "size": "2847"
     },
     "21": {
         "center": [
@@ -128,7 +128,7 @@
             -6.442942942942949
         ],
         "label": "Right Accumbens",
-        "size": "665 voxels"
+        "size": "665"
     },
     "3": {
         "center": [
@@ -137,7 +137,7 @@
             14.145607054521989
         ],
         "label": "Left Lateral Ventricle",
-        "size": "9298 voxels"
+        "size": "9298"
     },
     "4": {
         "center": [
@@ -146,7 +146,7 @@
             6.223302840635526
         ],
         "label": "Left Thalamus",
-        "size": "10384 voxels"
+        "size": "10384"
     },
     "5": {
         "center": [
@@ -155,7 +155,7 @@
             9.68675614079514
         ],
         "label": "Left Caudate",
-        "size": "3948 voxels"
+        "size": "3948"
     },
     "6": {
         "center": [
@@ -164,7 +164,7 @@
             0.36970454900735206
         ],
         "label": "Left Putamen",
-        "size": "6396 voxels"
+        "size": "6396"
     },
     "7": {
         "center": [
@@ -173,7 +173,7 @@
             -1.246132208157519
         ],
         "label": "Left Pallidum",
-        "size": "2132 voxels"
+        "size": "2132"
     },
     "8": {
         "center": [
@@ -182,7 +182,7 @@
             -34.174358974358974
         ],
         "label": "Brain-Stem",
-        "size": "38609 voxels"
+        "size": "38609"
     },
     "9": {
         "center": [
@@ -191,6 +191,6 @@
             -14.397309417040361
         ],
         "label": "Left Hippocampus",
-        "size": "5574 voxels"
+        "size": "5574"
     }
 }

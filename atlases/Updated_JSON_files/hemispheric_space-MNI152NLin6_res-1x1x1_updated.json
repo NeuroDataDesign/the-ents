@@ -2,7 +2,7 @@
     "0": {
         "center": null,
         "label": null,
-        "size": "5393936 voxels"
+        "size": "5393936"
     },
     "1": {
         "center": [
@@ -11,7 +11,7 @@
             9.936237384409921
         ],
         "label": "Right hemisphere",
-        "size": "946453 voxels"
+        "size": "946453"
     },
     "2": {
         "center": [
@@ -20,6 +20,6 @@
             9.73476291431939
         ],
         "label": "Left hemisphere",
-        "size": "880640 voxels"
+        "size": "880640"
     }
 }
